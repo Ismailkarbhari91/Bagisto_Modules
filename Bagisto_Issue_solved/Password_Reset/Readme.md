@@ -103,5 +103,5 @@ class ResetPaswordController extends Controller
 
 # Replace href url with your url
 
-# Now hit below routes for related products
+# Now hit below routes for Rest Password
 your-domain-name/api/passsword-reset
