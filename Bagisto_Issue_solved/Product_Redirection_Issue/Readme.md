@@ -1,7 +1,10 @@
+# Admin Dashbord Product Redirection Issue in React js
+
 # Go to packages/Webkul/Admin/src/DataGrids
 
 # Replace Product Column code with below code
 
+~~~
  $this->addColumn([
             'index'      => 'product_name',
             'label'      => trans('admin::app.datagrid.name'),
@@ -16,5 +19,6 @@
                 return $row->product_name;
             },
         ]);
+~~~
 
 # Replace href url with your url.
