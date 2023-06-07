@@ -1,21 +1,16 @@
-# Bagisto-Contact-Us-Module
- Bagisto Contact Us Module 1.0.
-
-### Requirements
-
-* **Bagisto**: 1.1 or Higher
-
+# Quotation-Module
+ 
 ### Installation and Configuration
 
 ##### a. Download & Extract the contents of zip
 
-##### b. Create folder "RKREZA" inside "packages" folder & copy the "Contact" folder inside it
+##### b. Upload CsvCategory Folder "inside "packages" folder.
 
-##### c. Go to config\app.php & add "RKREZA\Contact\Providers\ContactServiceProvider::class" (without double quotation) inside 'providers'
+##### c. Go to config\app.php & add " Webkul\Quote\Providers\QuoteServiceProvider::class," (without double quotation) inside 'providers'
 
-##### d. Go to config\concord.php & add "\RKREZA\Contact\Providers\ModuleServiceProvider::class" (without double quotation) inside 'modules'
+##### d. Go to config\concord.php & add "\Webkul\Quote\Providers\ModuleServiceProvider::class," (without double quotation) inside 'modules'
 
-##### e. Go to composer.json & add "RKREZA\\Contact\\": "packages/RKREZA/Contact/src" inside 'autoload' -> 'psr-4'
+##### e. Go to composer.json & add ""Webkul\\Quote\\": "packages/Webkul/Quote/src"" inside 'autoload' -> 'psr-4'
 
 ##### f. Run the following command
 		~~~
