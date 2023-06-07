@@ -1,0 +1,44 @@
+
+select#product {
+    height: 32px;
+    width: 26.3rem;
+}
+input#pop_title {
+    width: 90%;
+}
+
+.form-group.mt-2.pop_product {
+    padding-bottom: 20px;
+}
+
+input#pop_priority {
+    height: 35px;
+    width: 84%;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+select#pop_product {
+    height: 35px;
+    margin-left: 13px;
+    width: 100%;
+}
+label.plabel {
+    margin-left: 12px;
+}
+.wp-core-ui select {
+    font-size: 14px;
+    line-height: 2;
+    color: #2c3338;
+    border-color: #8c8f94;
+    box-shadow: none;
+    border-radius: 3px;
+    padding: 0 24px 0 8px;
+    min-height: 30px;
+    max-width: 26.3rem;
+    -webkit-appearance: none;
+    background: #fff url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 5px top 55%;
+    background-size: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+

@@ -1,0 +1,111 @@
+.box
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -21px;
+    margin-bottom: 20px;
+    margin-top: 10px !important;
+    padding-top: 10px;
+   
+}
+
+    .details
+{
+
+
+    text-align: center;
+     width: 15%;
+     margin-left: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.hidebtn
+
+{
+    display: none;
+}
+
+.details input {
+    display: none !important;
+}
+
+h5.heading {
+    color: black !important;
+    font-family: 'Marcellus','sans-serif' !important;
+    font-size: 17px !important;
+}
+
+
+  .ripple-btn-primary {
+    outline: 0;
+    background-color: #ba911c;
+    color: white;
+    border: 0;
+  }
+
+  .ripple-btn-primary h5
+  {
+    color:white;
+  }
+
+.ripple-btn-primary span
+  {
+    color:white;
+  }
+
+
+
+ a.btn.btn-primary.alt.wc-forward.wp-element-button {
+    border: 1px solid #ba9126 !important;
+    text-decoration: none;
+    background: #ba9126 !important;
+}
+.details {
+    border: 1px solid #ba9126;
+    cursor: pointer;
+	padding: 13px;
+}
+
+
+.wsdesk_wrapper .label {
+	width:120px !important;
+	max-width:120px !important;
+    display: inline;
+    padding: 0.5em 0.9em 0.5em !important;
+    font-size: 80% !important;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.9rem !important;
+}
+
+
+/*  media query*/
+@media (max-width: 640px){
+
+.details {
+    width: 120px !important;
+    height: 100px !important;
+    text-align: center !important;
+    margin-top: 23px !important;
+}
+
+.details label {
+    text-align: center !important;
+    justify-content: center !important;
+    margin-top: 20px !important;
+    / font-size: 14px !important; /
+}
+	.wsdesk_wrapper .btn {
+    margin-left: 15px;
+}
+
+.box {
+    margin-bottom: 20px;
+}
+}
+/*  */
+
