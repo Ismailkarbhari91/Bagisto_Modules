@@ -82,4 +82,4 @@ class RelatedProductsController extends Controller
 ~~~
 
 # Now hit below routes for related products
-<your-domain>/api/related-products
+your-domain-name/api/related-products
