@@ -1,0 +1,64 @@
+
+select#website {
+    height: 32px;
+    width: 26.3rem;
+}
+
+select#state {
+    height: 32px;
+    width: 26.3rem;
+}
+
+select#astate {
+    height: 35px;
+    margin-left: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label.plabel {
+    margin-left: 12px;
+}
+input#state_title {
+    width: 85%;
+}
+
+select#state_website {
+    height: 35px;
+    margin-left: 13px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label.slabel {
+    margin-left: 12px;
+}
+label.aplabel {
+    margin-left: 12px;
+}
+label.adlabel {
+    margin-left: 12px;
+}
+input#area_title {
+    width: 85%;
+}
+
+
+input#title {
+    width: 95%;
+}
+
+input#areatitle {
+    width: 95%;
+}
+
+input#apincode {
+    width: 81%;
+    margin-left: 12px;
+}
+
+input#address {
+    width: 81%;
+    margin-left: 12px;
+    margin-bottom: 30px;
+}
