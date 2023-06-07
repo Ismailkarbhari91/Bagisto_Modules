@@ -10,7 +10,7 @@
 # Now Craete a controller file name RelatedProductsController in vendor/bagisto/legacy-api/src/Http/Controllers/Shop
 
 # Add below code in that RelatedProductsController file
-
+ ~~~
 <?php
 
 namespace Webkul\API\Http\Controllers\Shop;
@@ -74,6 +74,7 @@ class RelatedProductsController extends Controller
     }
     
 }
+~~~
 
 # Now hit below routes for related products
 <your-domain>/api/related-products
