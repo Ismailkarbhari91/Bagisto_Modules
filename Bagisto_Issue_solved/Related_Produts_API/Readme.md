@@ -1,11 +1,16 @@
 # Go to vendor/bagisto/legacy-api/src/Http/routes.php
 
-# Add below routes code
 
+# Add below routes code
+~~~
  Route::get('related-products', [RelatedProductsController::class, 'related']);
- 
+ ~~~
+
  # Add Controller in routes.php file to top of the file
+ ~~~
  use Webkul\API\Http\Controllers\Shop\RelatedProductsController;
+~~~
+
 
 # Now Craete a controller file name RelatedProductsController in vendor/bagisto/legacy-api/src/Http/Controllers/Shop
 
